@@ -1,10 +1,12 @@
 *,
 *::before,
-*::after {
+*::after,
+*:visited {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+    color: inherit;
 }
 
 :root {
@@ -24,7 +26,7 @@ body {
 
 .navbar {
     background-color: var(--bg-main);
-    border-right: 0.1rem solid #111;
+    border-right: 0.05rem solid #111;
     position: fixed;
     left: 0px;
     min-width: 13rem;
@@ -96,7 +98,7 @@ main {
 }
 
 .stories {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     height: 5rem;
     padding: 0.3rem;
     margin-bottom: 0.5rem;
@@ -110,12 +112,12 @@ main {
 }
 
 .feed {
-    background-color: steelblue;
+    /* background-color: steelblue; */
     width: fit-content;
 }
 
 .post {
-    background-color: rgba(0, 0, 0, 10%);
+    /* background-color: rgba(0, 0, 0, 10%); */
     aspect-ratio: 4/4.5;
     width: 50vw;
     max-width: 28rem;
@@ -132,11 +134,13 @@ main {
 
 .auth-box {
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
 }
 
 .auth-info h2 {
     margin-left: 1rem;
+    font-size: 1rem;
 }
 
 .auth-ico {
@@ -146,15 +150,15 @@ main {
     border-radius: 50%;
 }
 
-.post-img{
+.post-img {
     max-width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 2%;
+    border-radius: 1.5%;
 }
 
-#wikipedia{
+#wikipedia {
     background-image: url(sites/wikipedia/screenshot.png);
 }
 
