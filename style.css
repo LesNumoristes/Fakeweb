@@ -146,6 +146,18 @@ main {
     border-radius: 50%;
 }
 
+.post-img{
+    max-width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+#wikipedia{
+    background-image: url(sites/wikipedia/screenshot.png);
+}
+
 .leftbox {
     background-color: salmon;
     position: absolute;
