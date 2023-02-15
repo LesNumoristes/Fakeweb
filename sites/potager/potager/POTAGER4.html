@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COMMENT AGRANDIR VOTRE POTAGER</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="Style3.css">
+
+    </head>
+
+    <body>
+        
+        <img id="myImage" src="img/popup.png" style="display: none; position: absolute;">
+
+        <script>
+            document.addEventListener('click', function(e) {
+              var image = document.createElement('img');
+              image.src = document.getElementById('myImage').src;
+              image.style.position = 'absolute';
+              image.style.left = e.pageX + 'px';
+              image.style.top = e.pageY + 'px';
+              document.body.appendChild(image);
+            });
+            </script>
+
+        <img src="img/fond.png" alt="">
+    
+
+    </body>   
+</html> 

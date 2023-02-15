@@ -1,0 +1,118 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Bauer Bodoni Std';
+}
+.container {
+    position: relative;
+    width: 1000px;
+    margin-left: 390px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    z-index: 3;
+}
+.header {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+}
+.title{
+    flex: auto;
+}
+.links a{
+    flex: initial;
+    padding-left: 16px;
+    font-size: large;
+    color:rgb(35, 65, 156);
+}
+.links a:visited{
+    flex: initial;
+    padding-left: 16px;
+    font-size: large;
+    color:rgb(121, 55, 197);
+}
+.search{
+    flex: initial;
+}
+.footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.container input{
+    padding: 6px;
+}
+.page{
+    position: relative;
+    width: 1000px;
+    margin-left: 390px;
+    padding-top: 20px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    z-index: 2
+}
+.page img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.pub_bg img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.pub1 img{
+    position: absolute;
+    width: 400px;
+    top: 1000px;
+    left: 0px;
+    z-index: 4;
+}
+.pub2 img{
+    position: absolute;
+    width: 100%;
+    top: 1250px;
+    left: 0px;
+    z-index: 3;
+}
+.pub3 img{
+    position: absolute;
+    width: 420px;
+    top: 1000px;
+    left: 1320px;
+    z-index: 4;
+}
+.pub4 img{
+    position: absolute;
+    width: 200px;
+    top: 570px;
+    left: 240px;
+    z-index: 3;
+}
+.pub5 img{
+    position: absolute;
+    width: 30%;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.pub6 img{
+    position: absolute;
+    width: 300px;
+    top: 670px;
+    left: 1600px;
+    z-index: 5;
+}
