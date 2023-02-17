@@ -101,14 +101,26 @@ main {
     /* background-color: yellowgreen; */
     height: 5rem;
     padding: 0.3rem;
-    margin-bottom: 0.5rem;
+    display: inline-flex;
+    align-items: center;
 }
 
 .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-pp {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: #000;
+}
+
+.story-auth {
+    margin-top: 0.2rem;
+    height: 2rem;
 }
 
 .feed {
@@ -120,8 +132,9 @@ main {
     /* background-color: rgba(0, 0, 0, 10%); */
     aspect-ratio: 4/4.5;
     width: 50vw;
-    max-width: 28rem;
+    max-width: 30rem;
     margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
     border-bottom: 0.1rem #111 solid;
 }
 
@@ -145,9 +158,25 @@ main {
 
 .auth-ico {
     background-image: url(./assets/img/shrek.jpeg);
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
+}
+
+.date-info {
+    display: inherit;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #888;
+}
+
+.date-info span {
+    width: 5px;
+    height: 5px;
+    margin-inline: 0.5rem;
+    border-radius: 50%;
+    background-color: #888;
 }
 
 .post-img {
@@ -156,6 +185,32 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1.5%;
+}
+
+.caption-icos {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    margin-right: 1rem;
+}
+
+.caption-icos-left * {
+    margin-right: 0.8rem;
+}
+
+.caption-box p {}
+
+.likes {
+    margin-bottom: 0.8rem;
+}
+
+.caption {
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+}
+
+.comment {
+    font-size: 11px;
+    color: #222;
 }
 
 #wikipedia {
