@@ -184,7 +184,28 @@ main {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 1.5%;
+}
+
+#wikipedia {
+    background-image: url(sites/wikipedia_melaine/screenshot.jpg);
+}
+
+#dezoom {
+    background-image: url(sites/dezoom_laura/screenshot.jpg);
+}
+
+#ici {
+    background-image: url(sites/yifan/screenshot.jpg);
+}
+
+#lidl {
+    background-image: url(sites/lidl_lou/screenshot.jpg);
+}
+
+#justclick {
+    background-image: url(sites/justclick_jacqueline/screenshot.jpg);
 }
 
 .caption-icos {
@@ -204,15 +225,13 @@ main {
 .caption {
     margin-bottom: 0.5rem;
     font-size: 13px;
+    display: flex;
+    flex-flow: row;
 }
 
 .comment {
     font-size: 11px;
     color: #222;
-}
-
-#wikipedia {
-    background-image: url(sites/wikipedia/screenshot.png);
 }
 
 .leftbox {

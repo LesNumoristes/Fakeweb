@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+    <style>
+        /*styling background*/
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #39ff5a;
+            font-family: sans-serif;
+        } </style>
+<button onclick="newTitle()"><span id="target"></span></button>
+<br />
+
+
+</body>
+<script type="text/javascript">
+	var target = document.getElementById('target');
+var titles = [
+  'yes',
+  'Done',
+  'Laugh',
+  'Kick',
+  'Zoom',
+  'Display',
+  'Win',
+  'Forget',
+  'Publish',
+  'Done',
+  'Escape',
+  'Dive',
+  'Keep',
+  'Go',
+  'Ok',
+  'Send',
+  'Try'
+];
+
+function newTitle() {
+  var i = (Math.random() * titles.length) | 0;
+  target.innerText = titles[i];
+}
+
+newTitle();
+</script>
+<a href="justclick3.html"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>back</a></p> 
+
+
+</html> 
