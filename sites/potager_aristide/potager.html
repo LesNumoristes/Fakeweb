@@ -11,22 +11,23 @@
 
 </head>
 
-<body>
+<body style="margin: 0;">
 
-    <img id="myImage" src="./popup.png" style="display: none; position: absolute;">
+    <img id="myImage" src="./popup.png" style="display: none; position: absolute; max-width: 10vw;">
 
     <script>
         document.addEventListener('click', function (e) {
             var image = document.createElement('img');
             image.src = document.getElementById('myImage').src;
             image.style.position = 'absolute';
+            image.style.maxWidth = "20vw";
             image.style.left = e.pageX + 'px';
             image.style.top = e.pageY + 'px';
             document.body.appendChild(image);
         });
     </script>
 
-    <img src="./fond.png" alt="">
+    <img src="./fond.png" alt="" style="width: 100%;">
 
 
 </body>
