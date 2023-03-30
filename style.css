@@ -212,6 +212,10 @@ main {
     background-image: url(sites/paradis.webp);
 }
 
+#potager {
+    background-image: url(sites/potager_aristide/screenshot.webp);
+}
+
 .caption-icos {
     margin-top: 0.5rem;
     margin-bottom: 0.25rem;
