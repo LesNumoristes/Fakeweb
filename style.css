@@ -208,6 +208,10 @@ main {
     background-image: url(sites/justclick_jacqueline/screenshot.jpg);
 }
 
+#paradis {
+    background-image: url(sites/paradis.webp);
+}
+
 .caption-icos {
     margin-top: 0.5rem;
     margin-bottom: 0.25rem;
