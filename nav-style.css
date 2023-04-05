@@ -1,0 +1,11 @@
+#search-ico {
+    transition: all 50ms ease-in-out;
+}
+
+#search-ico:hover {
+    transform: scale(70);
+}
+
+.navbar:has(#search-ico:hover) .nav-list{
+    transform: scale(3) translate(3rem);
+}

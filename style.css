@@ -15,6 +15,15 @@
     --ico-dark: #101010;
 }
 
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 body {
     background: var(--bg-main);
     font-weight: 16px;
@@ -28,6 +37,7 @@ body {
     background-color: var(--bg-main);
     border-right: 0.05rem solid #111;
     position: fixed;
+    z-index: 1;
     left: 0px;
     min-width: 13rem;
     width: fit-content;
