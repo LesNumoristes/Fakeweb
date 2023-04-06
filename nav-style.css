@@ -27,25 +27,13 @@
     cursor: pointer;
 }
 
-body > #msg-ico {
+.msg-ico-active{
     position: fixed;
-    rotate: 60deg;
-    animation: fly 4s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-@keyframes fly {
-    0% {
-        margin-top: 0vh;
-        left: 0rem;
-    }
-    40%{
-        margin-top: 60vh;
-    }
-    70%{
-        margin-top: 40vh;
-    }
-    100%{
-        margin-top: auto;
-        left: 100%;
-    }
-}
+/* body>#msg-ico {
+    position: fixed;
+    bottom: 3vh;
+    rotate: 60deg;
+    animation: fly 4s cubic-bezier(0.23, 1, 0.320, 1);
+} */
