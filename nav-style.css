@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after,
+*:visited {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+
 #search-ico {
     transition: all 50ms ease-in-out;
 }
@@ -6,6 +18,34 @@
     transform: scale(70);
 }
 
-.navbar:has(#search-ico:hover) .nav-list{
-    transform: scale(3) translate(3rem);
+.navbar:has(#search-ico:hover) .nav-list {
+    transform: scale(2) translate(3rem);
+}
+
+
+#msg-btn {
+    cursor: pointer;
+}
+
+body > #msg-ico {
+    position: fixed;
+    rotate: 60deg;
+    animation: fly 4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes fly {
+    0% {
+        margin-top: 0vh;
+        left: 0rem;
+    }
+    40%{
+        margin-top: 60vh;
+    }
+    70%{
+        margin-top: 40vh;
+    }
+    100%{
+        margin-top: auto;
+        left: 100%;
+    }
 }
