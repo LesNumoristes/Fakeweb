@@ -4,7 +4,8 @@ function fly() {
     // const newPlane = plane.cloneNode(true);
     // var coords = getAbsPosition(plane)
     // document.body.appendChild(newPlane)
-    document.getElementById("msg-ico").className="msg-ico-active"
+    plane.className = "msg-ico-active"
+    console.log('flying')
 }
 
 function getAbsPosition(element) {
